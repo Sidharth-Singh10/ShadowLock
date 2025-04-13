@@ -19,9 +19,19 @@ A pre-password is a small memorable password which is used to derive your acutal
 
 ## 🧪 Example Usage
 
-```bash
-PASSWORD_SALT=mysalt cargo run -- <MASTER_PASSWORD> <SITE_NAME> <PRE_PASSWORD>
-```
+### Development 
+
+add `PASSWORD_SALT` in your environment or in `.env` file and then run `cargo run`
+
+### Actual Usage
+
+add `PASSWORD_SALT` in your environment or in `.env` file 
+Run
+1) `cargo build --release`
+2) `cargo install --path .`
+
 
 current state of application:
-![image2](https://github.com/user-attachments/assets/1dbf1fe5-59cf-4a61-8616-99184055c85f)
+
+![Screenshot_20250414_023342](https://github.com/user-attachments/assets/7f9f5168-ef2e-4165-adc2-36db523a76eb)
+![Screenshot_20250414_023327](https://github.com/user-attachments/assets/a77a84c7-18d6-493c-a721-c052d856f324)
